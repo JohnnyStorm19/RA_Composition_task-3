@@ -7,7 +7,6 @@ export function Collapse({
   expandedLabel?: boolean;
 }) {
   const [collapse, setCollapse] = useState(collapsedLabel);
-// ?   const [expand, setExpand] = useState(expandedLabel); не очень понял зачем этот стэйт
 
   const handleBtnClick = () => {
     setCollapse(!collapse);
