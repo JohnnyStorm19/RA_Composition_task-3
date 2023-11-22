@@ -4,7 +4,6 @@ export function Collapse({
   collapsedLabel = true,
 }: {
   collapsedLabel?: boolean;
-  expandedLabel?: boolean;
 }) {
   const [collapse, setCollapse] = useState(collapsedLabel);
 
